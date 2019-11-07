@@ -6,7 +6,6 @@ $(document).ready(function () {
 
     let heightHeader = $('header').height();
     $(".detailed, .recruit").css("padding-top", heightHeader);
-    $(".detailed-dropdown").css("top", heightHeader);
 
     $( ".recruit-datepicker" ).datepicker({ dateFormat: 'dd-mm-yy'}).datepicker("setDate", new Date());
 
