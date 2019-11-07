@@ -39,7 +39,7 @@
     justify-content: space-between
     padding: 22px 0 0
   &-left
-
+    padding-top: 20px
     padding-right: 30px
     max-width: 790px
     width: 100%
@@ -96,12 +96,15 @@
     font-size: 17px
     font-weight: 400
     color: #000000
-    margin-bottom: 29px
+    margin-bottom: 21px
+    &:nth-last-child(2)
+      margin-bottom: 34px
     &-name
       width: 145px
     &-info
       color: #545453
       width: calc(100% - 145px)
+      font-weight: 300
     &-lang
       border-top: 1px dotted #dadada
       border-bottom: 1px dotted #dadada
@@ -111,8 +114,6 @@
     max-width: 382px
     width: 100%
   &-dropdown
-    position: sticky
-    top: 0
     &-item
       line-height: 42px
       background-color: #839a3b
@@ -162,7 +163,7 @@
     display: flex
     justify-content: space-between
     width: 100%
-    padding-top: 20px
+    padding-top: 17px
     &-one
       max-width: 262px
       width: 100%
@@ -171,7 +172,7 @@
       color: #020202
       font-size: 18px
       text-transform: uppercase
-      margin-bottom: 26px
+      margin-bottom: 17px
     &-name
       color: #000000
       font-weight: 400
@@ -181,21 +182,22 @@
       font-size: 17px
       font-weight: 300
     &-col
-      margin-bottom: 28px
+      margin-bottom: 25px
     &-item
-      margin-bottom: 59px
+      margin-bottom: 53px
       &:last-child
         margin-bottom: 0
     &-two
-      padding-top: 48px
-    &-list
-      max-width: 350px
-      width: 100%
-      margin-bottom: 25px
-      color: #545453
-      font-family: "Roboto Condensed", sans-serif
-      font-size: 17px
-      font-weight: 300
+      padding-top: 39px
+      margin-right: -30px
+    //&-list
+    //  max-width: 350px
+    //  width: 100%
+    //  margin-bottom: 25px
+    //  color: #545453
+    //  font-family: "Roboto Condensed", sans-serif
+    //  font-size: 17px
+    //  font-weight: 300
   &-second
     font-family: "Roboto Condensed", sans-serif
     position: relative
@@ -228,7 +230,7 @@
   font-weight: 300
   text-align: center
   &-card
-    margin-top: 27px
+    margin-top: 18px
     margin-right: 20px
     width: calc(25% - 20px)
     background: #ffffff
@@ -240,7 +242,7 @@
     width: 100%
     height: 205px
     object-fit: cover
-    margin-bottom: 19px
+    margin-bottom: 15px
   &-title
     color: #545453
     font-size: 18px
@@ -250,7 +252,6 @@
     white-space: nowrap
     text-overflow: ellipsis
     overflow: hidden
-    margin-bottom: 6px
     padding: 0 24px
   &-text
     color: #545453
@@ -263,11 +264,11 @@
   &-date
     color: #999966
     font-size: 16px
-    padding: 25px 24px 0
+    padding: 22px 24px 0
 
 .portfolio
   &-title
-    margin-bottom: 30px
+    margin-bottom: 20px
 
 
 
